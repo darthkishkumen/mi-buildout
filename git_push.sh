@@ -9,8 +9,8 @@
 #
 # Include in your builds via
 # \curl -sSL https://raw.githubusercontent.com/codeship/scripts/master/deployments/git_push.sh | bash -s
-REMOTE_REPOSITORY=${REMOTE_REPOSITORY:?'You need to configure the REMOTE_REPOSITORY environment variable!'}
-REMOTE_BRANCH=${REMOTE_BRANCH:?'You need to configure the REMOTE_BRANCH environment variable!'}
+REMOTE_REPOSITORY=${REMOTE_REPOSITORY:"https://github.com/guaigua/mi-buildout"}
+REMOTE_BRANCH=${REMOTE_BRANCH:"master"}
 
 set -e
 
