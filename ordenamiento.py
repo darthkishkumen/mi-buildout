@@ -25,7 +25,7 @@ def minimoN(n):
     #En cambio el que usa la funcion Python por defecto es lineal.
     return lista[n-1]
 
-
+print ("test")
 print(minimoN(2))
 
 
